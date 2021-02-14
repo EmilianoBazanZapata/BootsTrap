@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--cabecera de la pagina-->
+        <title>Cuarta Clase</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <!--Script-->
+        <script src="http://maxodn.bootstrapodn.com/bootstrap/3.3.5/ja/bootstrap.min.js"></script>
+    </head>
+    <!--le aplico color al subrayado-->
+    <style>
+        
+        .sub
+        {
+            background-color: red;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <!--Titulos-->
+            <h1>titulo 1</h1>
+            <h2>titulo 2</h2>
+            <h3>titulo 3</h3>
+            <h4>titulo 4</h4>
+            <h5>titulo 5</h5>
+            <h6>titulo 6</h6>
+            <!--creo una linea divisoria-->
+            <hr/>
+            <!--textos secundarios a los titulos-->
+            <h1>titulo 1 <small>texto secundario 1 </small></h1>
+            <h2>titulo 2 <small>texto secundario 1 </small></h2>
+            <h3>titulo 3 <small>texto secundario 1 </small></h3>
+            <h4>titulo 4 <small>texto secundario 1 </small></h4>
+            <h5>titulo 5 <small>texto secundario 1 </small></h5>
+            <h6>titulo 6 <small>texto secundario 1 </small></h6>
+            <hr/>
+            <!--subrayado-->
+            <p>con bootstrap puedo <mark class="sub">resaltar</mark> lo importante</p>
+            <hr/>
+            <p>se puede colocar una marca a una <abbr title="marca"> palabra</abbr></p>
+            <hr/>
+            <!--Bloques-->
+            <h1>bloque 1</h1>
+            <figure >
+                <blockquote class="blockquote">
+                    <p>
+                        El principio de Pareto, ​​ también conocido como la regla del 80-20 y <br>
+                        ley de los pocos vitales, ​ describe el fenómeno estadístico por el <br>
+                        que en cualquier población que contribuye a un efecto común, es una <br>
+                        proporción pequeña la que contribuye a la mayor parte del efecto<br>
+                        
+                    </p>
+                </blockquote>
+            </figure>
+            <hr/>
+            <!--Bloque invertido-->
+            <h1>bloque 2 invertido</h1>
+            <figure class="text-end">
+                <blockquote class="blockquote-reverse">
+                    <p>
+                        El principio de Pareto, ​​ también conocido como la regla del 80-20 y <br>
+                        ley de los pocos vitales, ​ describe el fenómeno estadístico por el <br>
+                        que en cualquier población que contribuye a un efecto común, es una <br>
+                        proporción pequeña la que contribuye a la mayor parte del efecto<br>
+                        <footer>informacion extraida de wikipedia</footer>
+                    </p>
+                </blockquote>
+            </figure>
+            <hr/>
+            <!--codigo visible-->
+            <h1>codigo</h1>
+            <p>
+                Elementos de HTML : <code>div</code> ,<br>
+                                    <code>section</code> , y<br>
+                                    <code>span</code>
+            </p>
+            <h1>atajos del teclado</h1>
+            <p>
+                puede usar <kbd>ctrl + c </kbd> para copiar el texto seleccionado <br>
+                puede usar <kbd>ctrl + v </kbd> para pegar el texto copiado
+            </p>
+            <hr/>
+            <!--pre elements-->
+            <h1>pre elements</h1>
+            <pre>
+                usualmente es       solo visible en el codigo HTML
+            </pre>
+            <hr/>
+            <!--contextos-->
+            <h1>clases contextuales</h1>
+            <p class="text-muted">texto muteado</p>
+            <p class="text-primary">texto primario</p>
+            <p class="text-success">texto exitoso</p>
+            <p class="text-info">texto para informacion</p>
+            <p class="text-warning">texto para advertencia</p>
+            <p class="text-danger">texto para peligro</p>
+            <hr/>
+            <!--contextos y colores de fondo -->
+            <p class="bg-primary"> texto importante</p>
+            <p class="bg-success"> texto exitoso</p>
+            <p class="bg-info"> texto para informacion</p>
+            <p class="bg-warning"> texto para advertencia</p>
+            <p class="bg-danger"> texto para peligro</p>
+        </div>
+    </body>
+</html>
