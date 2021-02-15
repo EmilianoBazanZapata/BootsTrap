@@ -1,9 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Clase N°28</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        
+        <form role="form">
+            <!--textbox-->
+            <div class="form-group">
+                <label for="usr">Nombre : </label>
+                <input type="text" class="form-control" id="usr" placeholder="Ingrese un Nombre">
+            </div>
+            <!--textarea-->
+            <div class="form-group">
+                <label for="usr">Comentario : </label>
+                <textarea rows="5" class="form-control" id="comentario" placeholder="Ingrese un Comentario"></textarea>
+            </div>
+            <!--checkbox-->
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Opcion 1</label>
+            </div>
+
+            <div class="checkbox">
+                <label><input type="checkbox" value="">Opcion 2</label>
+            </div>
+            <!--radioboton-->
+            <div class="radio">
+                <label><input type="radio" name="radio">Opcion 1</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radio">Opcion 2</label>
+            </div>
+            <!--lista-->
+            <div class="form-group">
+                <label for="sel">Lista seleccionable:</label>
+                <select class="form-control" id="sel">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <!--multiple lista-->
+            <div class="form-group">
+                <label for="sel">Lista seleccionable:</label>
+                <select multiple class="form-control" id="sel">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </form>
     </body>
 </html>
